@@ -1,11 +1,11 @@
 @import "vars";
 
-
 .head-background-catalog {
   height: 400px;
-  background: $backgroundImagesColor url("../img/catalog-header.jpg") no-repeat center;
+  background: $backgroundImagesColor url("../img/catalog-header.jpg") no-repeat
+    center;
   background-size: cover;
-  color: #FFFFFF;
+  color: #ffffff;
   min-width: 406px;
 }
 
@@ -19,7 +19,6 @@
 }
 
 .underheading-nav {
-
   margin-top: 64px;
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +26,6 @@
   justify-content: space-between;
   align-content: start;
   color: black;
-
 }
 
 .upper-nav {
@@ -37,11 +35,11 @@
   &-list:not(:last-child):after {
     content: "/";
     padding: 0 10px;
+    color: #f4f2ee;
   }
 
-
   &-links {
-    color: black;
+    color: #f4f2ee;
   }
 }
 
@@ -80,7 +78,7 @@
 
 @media (min-width: $tabletResolutionModifiedMin) {
   .goods-name {
-    color: black;
+    color: #f4f2ee;
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 29px;
@@ -95,7 +93,7 @@
 .goods-description {
   font-size: 14px;
   line-height: 17px;
-  color: #888;
+  color: #a59b8f;
   margin-bottom: 12px;
 }
 
@@ -114,11 +112,9 @@
   line-height: 24px;
   margin-top: 32px;
   padding-bottom: 64px;
-  color: black;
+  color: #a59b8f;
 
   &:hover {
     text-decoration: underline;
   }
 }
-
-
