@@ -212,5 +212,12 @@
 		</div>
 
 	</footer>
+	<script>
+		const button = document.querySelector('.cart-ordering-suggest');
+		button.addEventListener('click', (event) => {
+			event.stopPropagation();
+			alert('Ваш заказ успешно оформлен');
+		})
+	</script>
 </body>
 </html>
