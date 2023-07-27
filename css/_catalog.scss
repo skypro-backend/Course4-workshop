@@ -1,11 +1,11 @@
 @import "vars";
 
-
 .head-background-catalog {
   height: 400px;
-  background: $backgroundImagesColor url("../img/catalog-header.jpg") no-repeat center;
+  background: $backgroundImagesColor url("../img/catalog-header.jpg") no-repeat
+    center;
   background-size: cover;
-  color: #FFFFFF;
+  color: #ffffff;
   min-width: 406px;
 }
 
@@ -19,7 +19,6 @@
 }
 
 .underheading-nav {
-
   margin-top: 64px;
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +26,6 @@
   justify-content: space-between;
   align-content: start;
   color: black;
-
 }
 
 .upper-nav {
@@ -38,7 +36,6 @@
     content: "/";
     padding: 0 10px;
   }
-
 
   &-links {
     color: black;
@@ -69,6 +66,7 @@
   outline: none;
   font-family: $font;
   background: url("../img/polygon-select.svg") no-repeat 96% 50%;
+  color-scheme: dark !important;
 }
 
 .goods-list {
@@ -120,5 +118,3 @@
     text-decoration: underline;
   }
 }
-
-
