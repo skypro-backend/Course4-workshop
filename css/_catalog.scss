@@ -41,7 +41,7 @@
 
 
   &-links {
-    color: black;
+    color: #F4F2EE;
   }
 }
 
@@ -69,6 +69,7 @@
   outline: none;
   font-family: $font;
   background: url("../img/polygon-select.svg") no-repeat 96% 50%;
+  color-scheme: dark !important;
 }
 
 .goods-list {
@@ -85,6 +86,7 @@
     font-size: 1.5rem;
     line-height: 29px;
     padding: 10px 0;
+    color: #F4F2EE;
 
     &:hover {
       text-decoration: underline;
@@ -95,8 +97,8 @@
 .goods-description {
   font-size: 14px;
   line-height: 17px;
-  color: #888;
   margin-bottom: 12px;
+  color: #A59B8F;
 }
 
 .price {
@@ -114,8 +116,7 @@
   line-height: 24px;
   margin-top: 32px;
   padding-bottom: 64px;
-  color: black;
-
+  color: #F4F2EE;
   &:hover {
     text-decoration: underline;
   }
