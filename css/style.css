@@ -1005,9 +1005,9 @@ a {
   fill: #000;
 }
 .footer__input-email {
-  color: black;
-  background: #ffffff;
-  border: 1px solid #C4C4C4;
+  color: #F4F2EE;
+  background: #151717;
+  border: 1px solid #444A4D;
   box-sizing: border-box;
   border-radius: 20px;
   padding: 12px 24px 14px 24px;
