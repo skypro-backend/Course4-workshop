@@ -313,7 +313,7 @@ a {
 .footer {
   display: flex;
   justify-content: space-around;
-  background: #444A4D;
+  background: #444a4d;
   padding-top: 32px;
   padding-bottom: 40px;
 
@@ -332,7 +332,7 @@ a {
   }
 
   &__links {
-    color: #A59B8F;
+    color: #a59b8f;
     font-size: 14px;
     line-height: 17px;
 
@@ -384,9 +384,9 @@ a {
   }
 
   &__input-email {
-    color: #F4F2EE;
+    color: #f4f2ee;
     background: #151717;
-    border: 1px solid #444A4D;
+    border: 1px solid #444a4d;
     box-sizing: border-box;
     border-radius: 20px;
     padding: 12px 24px 14px 24px;
@@ -413,7 +413,7 @@ a {
   }
 
   &__sign-in-button {
-    background: rgba(222, 215, 215, 0.41);
+    background:#7A7164;
     border: 1px solid #ffffff;
     box-sizing: border-box;
     border-radius: 20px;
@@ -423,6 +423,7 @@ a {
     line-height: 18px;
     font-family: $font;
     transition: background-color 0.2s;
+    color: #ffff;
 
     &:hover {
       background-color: #888888;
@@ -442,4 +443,3 @@ a {
     }
   }
 }
-
