@@ -669,7 +669,7 @@
 
 html,
 body {
-  background-color: #191B1C;
+  background-color: #191b1c;
 }
 
 li {
@@ -688,14 +688,14 @@ a {
 .head-background-main {
   height: 735px;
   min-width: 406px;
-  background: #C4C4C4 url("../img/main-header.jpg") no-repeat center;
+  background: #c4c4c4 url("../img/main-header.jpg") no-repeat center;
   background-size: cover;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media (min-width: 768px) {
   .header {
-    border-bottom: 0.5px solid #FFFFFF;
+    border-bottom: 0.5px solid #ffffff;
   }
 }
 .header {
@@ -719,7 +719,7 @@ a {
   line-height: 20px;
   padding-left: 32px;
   padding-right: 32px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 20px;
   background-color: transparent;
   outline: none;
@@ -727,10 +727,10 @@ a {
   font-family: "Montserrat", sans-serif;
 }
 .header__input-search::-moz-placeholder {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .header__input-search::placeholder {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .header__input-search:hover {
   background-color: #fff;
@@ -759,7 +759,7 @@ a {
   display: block;
   font-size: 1rem;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .header__links:hover {
   text-decoration: underline;
@@ -786,7 +786,7 @@ a {
   .main-to-catalog {
     font-size: 1rem;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 .main-to-catalog:hover {
@@ -814,11 +814,15 @@ a {
     margin-top: 64px;
   }
 }
-.goods-box, .goods, .special-offerings-box {
+.goods-box,
+.goods,
+.special-offerings-box {
   max-width: 378px;
   transition: 0.2s;
 }
-.goods-box:hover, .goods:hover, .special-offerings-box:hover {
+.goods-box:hover,
+.goods:hover,
+.special-offerings-box:hover {
   transform: scale(1.05);
   box-shadow: 0 0 5px #888888;
 }
@@ -861,7 +865,7 @@ a {
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
   }
   .for-blocks:nth-of-type(1) {
     grid-column: span 6;
@@ -1003,7 +1007,7 @@ a {
 }
 .footer__input-email {
   color: black;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid #C4C4C4;
   box-sizing: border-box;
   border-radius: 20px;
@@ -1039,7 +1043,7 @@ a {
 }
 .footer__sign-in-button {
   background: rgba(222, 215, 215, 0.41);
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   box-sizing: border-box;
   border-radius: 20px;
   text-align: center;
@@ -1062,4 +1066,11 @@ a {
 .footer__get-news-text {
   font-size: 14px;
   line-height: 16px;
+}
+
+.header__input-search:hover {
+  background-color: #151717;
+}
+.header__input-search:focus {
+  background-color: #151717;
 }/*# sourceMappingURL=style.css.map */
