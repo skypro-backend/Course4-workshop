@@ -73,18 +73,15 @@ a {
     outline: none;
     box-sizing: border-box;
     font-family: $font;
+    &:hover {
+      background-color: #151717;
+    }
+    &:focus {
+      background-color: #151717;
+    }
 
     &::placeholder {
       color: #ffffff;
-    }
-
-    &:hover {
-      background-color: #fff;
-      transition: 0.3s;
-    }
-
-    &:focus {
-      background-color: #fff;
     }
 
     &:hover::placeholder {
@@ -446,11 +443,3 @@ a {
   }
 }
 
-.header__input-search {
-  &:hover {
-    background-color: #151717;
-  }
-  &:focus {
-    background-color: #151717;
-  }
-}

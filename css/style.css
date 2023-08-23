@@ -726,18 +726,17 @@ a {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+.header__input-search:hover {
+  background-color: #151717;
+}
+.header__input-search:focus {
+  background-color: #151717;
+}
 .header__input-search::-moz-placeholder {
   color: #ffffff;
 }
 .header__input-search::placeholder {
   color: #ffffff;
-}
-.header__input-search:hover {
-  background-color: #fff;
-  transition: 0.3s;
-}
-.header__input-search:focus {
-  background-color: #fff;
 }
 .header__input-search:hover::-moz-placeholder {
   color: black;
@@ -1066,11 +1065,4 @@ a {
 .footer__get-news-text {
   font-size: 14px;
   line-height: 16px;
-}
-
-.header__input-search:hover {
-  background-color: #151717;
-}
-.header__input-search:focus {
-  background-color: #151717;
 }/*# sourceMappingURL=style.css.map */
