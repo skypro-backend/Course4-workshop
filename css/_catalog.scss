@@ -1,11 +1,11 @@
 @import "vars";
 
-
 .head-background-catalog {
   height: 400px;
-  background: $backgroundImagesColor url("../img/catalog-header.jpg") no-repeat center;
+  background: $backgroundImagesColor url("../img/catalog-header.jpg") no-repeat
+    center;
   background-size: cover;
-  color: #FFFFFF;
+  color: #ffffff;
   min-width: 406px;
 }
 
@@ -19,7 +19,6 @@
 }
 
 .underheading-nav {
-
   margin-top: 64px;
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +26,6 @@
   justify-content: space-between;
   align-content: start;
   color: black;
-
 }
 
 .upper-nav {
@@ -38,7 +36,6 @@
     content: "/";
     padding: 0 10px;
   }
-
 
   &-links {
     color: black;
@@ -54,7 +51,9 @@
 .upper-nav-links:hover {
   text-decoration: underline;
 }
-
+html {
+  color-scheme: dark !important;
+}
 .select {
   appearance: none;
   width: 288px;
@@ -80,7 +79,7 @@
 
 @media (min-width: $tabletResolutionModifiedMin) {
   .goods-name {
-    color: black;
+    color: #f4f2ee;
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 29px;
@@ -93,6 +92,7 @@
 }
 
 .goods-description {
+  color: #A59B8F;
   font-size: 14px;
   line-height: 17px;
   color: #888;
@@ -100,6 +100,7 @@
 }
 
 .price {
+  color: #F4F2EE;
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 29px;
@@ -120,5 +121,3 @@
     text-decoration: underline;
   }
 }
-
-
