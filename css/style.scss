@@ -12,6 +12,11 @@
   font-size: 16px;
 }
 
+html,
+body {
+  background: #191b1c;
+}
+
 li {
   list-style-type: none;
 }
@@ -76,12 +81,12 @@ a {
     }
 
     &:hover {
-      background-color: #fff;
+      background-color: #151717;
       transition: 0.3s;
     }
 
     &:focus {
-      background-color: #fff;
+      background-color: #151717;
     }
 
     &:hover::placeholder {
@@ -389,7 +394,7 @@ a {
 
   &__input-email {
     color: black;
-    background: #FFFFFF;
+    background: dark !important;
     border: 1px solid $borderColorGrey;
     box-sizing: border-box;
     border-radius: 20px;
@@ -417,7 +422,7 @@ a {
   }
 
   &__sign-in-button {
-    background: rgba(222, 215, 215, 0.41);
+    background: dark !important;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 20px;
