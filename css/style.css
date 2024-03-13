@@ -47,7 +47,9 @@
 }
 
 .select {
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   width: 288px;
   height: 41px;
   font-size: 1rem;
@@ -65,7 +67,8 @@
 .goods-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 32px;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
   row-gap: 48px;
 }
 
@@ -103,7 +106,7 @@
   line-height: 24px;
   margin-top: 32px;
   padding-bottom: 64px;
-  color: black;
+  color: #F4F2EE;
 }
 .show-more:hover {
   text-decoration: underline;
@@ -148,7 +151,8 @@
   width: 173px;
   height: 173px;
   grid-column: span 2;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   padding-right: 32px;
   transition: 0.2s;
 }
@@ -383,28 +387,22 @@
   .center {
     padding: 0 16px;
   }
-
   .center-mobile {
     padding-left: calc(50% - 189px);
     padding-right: calc(50% - 189px);
   }
-
   .head-background-main {
     height: 90vh;
   }
-
   .head-background-catalog {
     height: 90vh;
   }
-
   .head-background-cart {
     height: 90vh;
   }
-
   .header__input-search {
     display: none;
   }
-
   .header {
     padding-top: 32px;
     padding-bottom: 0;
@@ -420,31 +418,26 @@
     width: 99px;
     height: 22px;
   }
-
   .header__mobile {
     display: flex;
     align-items: center;
     gap: 32px;
   }
 
-  .main-h1,
-  .catalog-h1 {
+  .main-h1, .catalog-h1 {
     font-size: 48px;
     line-height: 59px;
     text-align: center;
   }
-
   .catalog-h1 {
     margin-top: 165px;
   }
-
   .main-h1-text {
     padding-top: 16px;
     font-size: 16px;
     line-height: 32px;
     text-align: center;
   }
-
   .main-to-catalog {
     padding-top: 16px;
     font-size: 14px;
@@ -453,18 +446,17 @@
     text-decoration: underline;
     color: #fff;
   }
-
   .for-header {
     font-size: 24px;
     line-height: 29px;
     padding: 32px 0;
   }
-
   .for-block {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     row-gap: 16px;
-    column-gap: 0;
+    -moz-column-gap: 0;
+         column-gap: 0;
     min-width: 375px;
   }
   .for-blocks {
@@ -504,14 +496,12 @@
     background-size: cover;
     height: 375px;
   }
-
   .special-offers-heading {
     font-size: 24px;
     line-height: 29px;
     color: #000;
     margin: 32px 0;
   }
-
   .special-offers-items {
     font-weight: 500;
     font-size: 1.5rem;
@@ -523,14 +513,12 @@
   .special-offers-items:hover {
     text-decoration: underline;
   }
-
   .special-offers-description {
     font-size: 14px;
     line-height: 17px;
     color: #888;
     margin-bottom: 12px;
   }
-
   .price {
     display: inline;
     font-weight: 500;
@@ -539,7 +527,6 @@
     color: #050505;
     margin-right: 32px;
   }
-
   .old-price {
     display: inline;
     font-weight: 500;
@@ -548,22 +535,18 @@
     text-decoration-line: line-through;
     color: #888;
   }
-
   .catalog-goods-heading {
     font-size: 24px;
     line-height: 29px;
     margin: 64px 0 32px 0;
     color: #000;
   }
-
   .bottom-to-catalog {
     text-decoration: underline;
   }
-
   .upper-nav-links {
     text-decoration: underline;
   }
-
   .goods-name {
     font-size: 18px;
     line-height: 22px;
@@ -571,11 +554,9 @@
     padding: 10px 0;
     font-weight: 500;
   }
-
   .show-more {
     text-decoration: underline;
   }
-
   .cart-flex {
     display: flex;
     flex-wrap: wrap;
@@ -597,7 +578,6 @@
   .cart-bottom-to-catalog {
     text-decoration: underline;
   }
-
   .special-offerings {
     padding-top: 16px;
   }
@@ -612,23 +592,20 @@
     line-height: 29px;
     padding: 32px 0;
   }
-
   .goods-flex {
     row-gap: 32px;
-    column-gap: 0;
+    -moz-column-gap: 0;
+         column-gap: 0;
   }
-
   .special-offers-items {
     font-size: 18px;
     line-height: 22px;
   }
 
-  .price,
-  .old-price {
+  .price, .old-price {
     font-size: 18px;
     line-height: 22px;
   }
-
   .footer {
     display: flex;
     flex-wrap: wrap;
@@ -648,22 +625,18 @@
   .center {
     padding: 0 calc(50% - 394px);
   }
-
   .for-block {
     gap: 30px;
   }
   .for-blocks {
     height: 268px;
   }
-
   .goods-flex {
     gap: 29px;
   }
-
   .show-more {
     text-decoration: underline;
   }
-
   .cart-flex {
     display: flex;
     flex-wrap: wrap;
@@ -672,7 +645,6 @@
     color: #ffffff;
     background: black;
   }
-
   .footer {
     padding-top: 32px;
     padding-bottom: 40px;
@@ -685,15 +657,14 @@
   .center {
     padding: 0 24px;
   }
-
   .goods-box {
     width: 345px;
   }
   .goods-box-img {
     width: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
-
   .footer {
     padding-top: 32px;
     padding-bottom: 40px;
@@ -763,12 +734,20 @@ a {
 .header__input-search::placeholder {
   color: #ffffff;
 }
+.header__input-search::placeholder {
+  color: #ffffff;
+}
 .header__input-search:hover {
   background-color: #fff;
   transition: 0.3s;
 }
 .header__input-search:focus {
   background-color: #fff;
+}
+.header__input-search:hover::-moz-placeholder {
+  color: black;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
 }
 .header__input-search:hover::placeholder {
   color: black;
@@ -804,13 +783,11 @@ a {
     margin: 64px 0 16px 0;
     max-width: 792px;
   }
-
   .main-h1-text {
     font-size: 1.5rem;
     line-height: 32px;
     margin-bottom: 16px;
   }
-
   .main-to-catalog {
     font-size: 1rem;
     line-height: 24px;
@@ -870,7 +847,6 @@ a {
     margin-bottom: 32px;
     margin-top: 64px;
   }
-
   .for-header {
     font-weight: 600;
     font-size: 3rem;
@@ -886,7 +862,6 @@ a {
     gap: 32px;
     grid-template-columns: repeat(12, 1fr);
   }
-
   .for-blocks {
     font-weight: 600;
     font-size: 34px;
@@ -940,14 +915,12 @@ a {
   .special-offers-items:hover {
     text-decoration: underline;
   }
-
   .special-offers-description {
     font-size: 14px;
     line-height: 17px;
     color: #888;
     margin-bottom: 12px;
   }
-
   .price {
     display: inline;
     font-weight: 500;
@@ -956,7 +929,6 @@ a {
     color: #050505;
     margin-right: 32px;
   }
-
   .old-price {
     display: inline;
     font-weight: 500;
@@ -1060,6 +1032,7 @@ a {
   line-height: 18px;
   color: #c4c4c4;
   font-family: "Montserrat", sans-serif;
+  -moz-transition: color 0.3s;
   transition: color 0.3s;
 }
 .footer__input-email:hover::placeholder {
@@ -1092,6 +1065,4 @@ a {
   color: #F4F2EE;
   font-size: 14px;
   line-height: 16px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
